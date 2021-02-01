@@ -1,12 +1,12 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import db from '../db.json';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizContainer from '../src/components/QuizContainer';
-import QuizLogo from '../src/components/QuizLogo';
-import Widget from '../src/components/Widget';
-import AlternativesForm from '../src/components/AlternativesForm';
-import Button from '../src/components/Button';
+import db from '../../db.json';
+import QuizBackground from '../../src/components/QuizBackground';
+import QuizContainer from '../../src/components/QuizContainer';
+import QuizLogo from '../../src/components/QuizLogo';
+import Widget from '../../src/components/Widget';
+import AlternativesForm from '../../src/components/AlternativesForm';
+import Button from '../../src/components/Button';
 
 function ResultWidget({ results }) {
   const totalAcertos = results.filter((x) => x).length;
